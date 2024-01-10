@@ -1,0 +1,69 @@
+/* Основной цвет сайта - Фуксия (темно-розовый) */
+body {
+  background-color: #ffffff; /* Темно-розовый */
+  color: #808080; /* Серый текст для контраста */
+}
+
+/* Цвет навигационного меню */
+.navbar {
+  background-color: #35008b; /* Темно-голубой */
+}
+
+/* Цвет ссылок в навигационном меню */
+.navbar-light .navbar-nav .nav-link {
+  color: #008073; /* тёмно-бирюзовый цвет */
+}
+
+/* Цвет фона блока с уведомлениями */
+.alert-info {
+  background-color: #ffffe0; /* Желто-коричневый */
+  border-color: #d2b48c; /* Светло-коричневый */
+}
+
+/* Цвет фона блока с изображением и описанием компании */
+.main-section {
+  background-color: #60acea; /* Небесный цвет */
+  color: #000000; /* Черный текст для контраста */
+}
+
+/* Цвет фона блока с информацией о достоинствах компании */
+.secondary {
+  background-color: #ffffff; /* Золотой (желто-коричневый) */
+  color: #000000; /* Черный текст для контраста */
+}
+
+/* Цвет фона таблицы с данными о маршрутах */
+.table-bordered {
+  background-color: #60acea; /* Небесный цвет */
+  color: #000000; /* Черный текст для контраста */
+}
+
+/* Цвет фона модального окна для оформления заявки */
+.modal-content {
+  background-color: rgb(255, 255, 255); /* Цвет серой корки (светло-коричневый) */
+}
+
+/* Цвет фона формы поиска гидов */
+form {
+  background-color: #ffffff; /* Золотой (желто-коричневый) */
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+/* Цвет фона таблицы с данными о гидах */
+.table-bordered {
+  background-color: #21659d; /* Тёмно голубой */
+  color: #ffffff; /* Белый текст для контраста */
+}
+
+/* Цвет фона подвала сайта */
+footer {
+  background-color: #000000; /* Коричневый */
+  color: #ffffff; /* Белый текст для контраста */
+}
+
+.custom-button-style {
+  background-color: rgb(33, 122, 239);
+  border: 2px solid /* your desired border color */;
+  /* Add any other styles as needed */
+}
