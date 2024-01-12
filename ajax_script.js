@@ -69,7 +69,7 @@ function GuideButtonHandler(item, tableRow) {
 }
 
 function GetUrl(path) {
-    let url = new URL(`http://exam-2023-1-api.std-900.ist.mospolytech.ru/api/${path}`);
+    let url = new URL(`https://edu.std-900.ist.mospolytech.ru/api/${path}`);
     url.searchParams.set("api_key", "267fbb90-be57-489a-83ff-9678ee19c6de");
 
     return url;
