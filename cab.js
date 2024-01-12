@@ -5,7 +5,7 @@ let perPage = 5;
 
 function GetUrl(path) {
     let url = new URL(`https://edu.std-900.ist.mospolytech.ru/api/${path}`);
-    url.searchParams.set("api_key", "267fbb90-be57-489a-83ff-9678ee19c6de");
+    url.searchParams.set("api_key", "86ee123c-0bda-4afa-8278-d341cdad90be");
 
     return url;
 }
